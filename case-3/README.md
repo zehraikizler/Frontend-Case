@@ -12,21 +12,3 @@ Proje içerisinde birer adet Readme dosyası, index.html dosyası ve main.js dos
 
 + HTML
 + JavaScript
-
-## Projenin Kurulumu
-
-Öncelikle projeyi klonlayın.
-
-```bash
-git clone ...
-```
-
-## Kullanımı
-
-Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
-
-Linux için:
-```linux
-cd GOREV-4
-code .
-```
