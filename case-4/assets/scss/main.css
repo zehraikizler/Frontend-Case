@@ -1,0 +1,70 @@
+.hover, .vertical-menu div > ul li:hover, .navbar-nav li:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.overflow, .content > .row, .content > .row div, .content > .row div .content-imgs {
+  overflow: hidden;
+}
+
+.font-weight, .vertical-menu, .vertical-menu div > ul, .navbar-nav {
+  font-weight: 500;
+}
+
+.under-line, .navbar-nav li .active {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-menu {
+  width: 220px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+.vertical-menu a {
+  color: black;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.vertical-menu div > ul li a {
+  color: black !important;
+}
+
+.navbar-nav li a {
+  color: black !important;
+}
+
+.content > .row div .content-imgs .heart-icon {
+  position: absolute;
+  background-color: white;
+  left: 78%;
+  top: 5%;
+  border-radius: 50%;
+}
+
+.content > .row div .content-imgs .heart-icon :hover {
+  cursor: pointer;
+}
+
+.content > .row div .content-imgs div > p {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+}
+
+.content > .row div .content-imgs div > p span:first-child {
+  display: block;
+  font-size: 20px;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
